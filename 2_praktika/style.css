@@ -1,0 +1,63 @@
+body {
+	margin: 0 auto;
+	background-image: url("cannon.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+
+.header {
+  background-color: rgba(33, 33, 33,0.7);
+  
+  
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  z-index:2;
+}
+.nav {
+	
+  margin: 0;
+  padding: 30px 0;
+}
+.nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color: #333;
+	
+}
+li {
+	
+	float:left;
+border-right:1px solid #bbb;	
+}
+li:last-child {
+	border-right:none;
+}
+li a {
+	display:block;
+	color:white;
+	text-align: center;
+	padding: 7px 20px;
+	
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #333;
+}
+
+.nav li {
+  
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-right: 25px;
+}
+.active {
+    background-color: #4CAF50;
+}

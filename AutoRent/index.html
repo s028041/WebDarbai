@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head lang="en">
+
+<meta charset="UTF-8">
+<title>AutoRent</title>
+<link rel="stylesheet" href="style.css"/>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+</head>
+
+<header>
+<ul class="meniu">
+ <li><a id="home" href="#homeSection">Vechles</a></li>
+ <li><a id="about" href="#aboutSection">About</a></li>
+ <li><a id="service" href="#serviceSection">Interior</a></li>
+ <li><a id="contact" href="#contactSection">Contact</a></li>
+ <li><a href="reservation.aspx">Reservations</a></li>
+</ul>
+</header>
+
+<body>
+<nav></nav>
+<div id="homeSection" class="sect sectOne">
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="img/amg.jpg" width="100%" height="50%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+   <a href="reservation.aspx">AMG S63 Coupe</a>
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/rolls.jpg" width="100%" height="75%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    <a href="reservation.aspx">Rolls Royce, Wraith</a>
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/bmw.jpg" width="100%" height="75%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+   <a href="reservation.aspx">BMW 730i</a>
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/limo.jpg" width="100%" height="75%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    <a href="reservation.aspx">Mercedes-Maybach S600</a>
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/bmw5.jpg" width="100%" height="75%">
+  <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+    <a href="reservation.aspx">BMW 530d</a>
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</div>
+</div>
+
+
+<div id="aboutSection" class="subSection">
+<h1>About AutoRent</h1>
+<p>Since 1994, AutoRent has continued to provide a great rental experience to every customer we serve. Each car rental associate receives specific training to provide the best customer service, while being an ambassador of the city you are visiting.
+</p>
+<p>
+ Each AutoRent employee is especially proud of creating that fantastic first impression of their city and we hope to deliver that first impression to you at every step along the way.
+</p>
+<p>AutoRent holds a strong commitment to delivering the Best Value in Car Rental. Since our beginnings, we have provided this value by offering current model year vehicles at incredible prices while practicing our signature and customer reviewed, top notch customer service. 
+</p>
+
+<p>We look forward to providing you with rental transportation on your next vacation or business trip from our many locations. 
+</p>
+
+
+</div>
+<div id="serviceSection" class="sect sectTwo">
+<h1>VECHLES INTERIOR</h1>
+<div class="supporting">
+      <div class="container">
+        <div class="col">
+          <img src="img/thum3.jpg">
+          <h2>Interior</h2>
+          <p>There are premium materials throughout, and the smart cabin design.</p>
+          <a href="reservation.aspx" class="btn-default">Book now</a>
+        </div>
+        <div class="col">
+          <img src="img/thum.jpg">
+          <h2>Confort</h2>
+          <p>The interior designers at Mercedes shows the highest levels of creativity.</p>
+          <a href="reservation.aspx" class="btn-default">Book now</a>
+        </div>
+        <div class="col">
+          <img src="img/thum2.jpg">
+          <h2>Class</h2>
+          <p>Wraith is the most powerful series model to carry the Rolls-Royce name ever.</p>
+          <a href="reservation.aspx" class="btn-default">Book now</a>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+
+</div>
+<div id="contactSection" class="subSection">
+<h1>Contact</h1>
+<h1>Open Hours</h1>
+<p>
+I-IV, VII 11.00-22.00, V-VI 11.00 - 24.00
+
+TEL:+370 11111111
+
+MOB: +370 11111111
+
+FAKSAS:+370 1111110
+
+EMAIL: autorent@rent.lt</p>
+<h1>Proparties</h1>
+<p>
+UAB „AutoRent“
+
+VOKIECIU G. 28, LT-00153 VILNIUS
+
+CODE: 15200000
+
+PVM CODE: LT520000000
+
+BANK ACC.: SEB LT07 7044 0000 0000 0000
+</p>
+
+</div>
+<div id="offersSection" class="sect sectThree">
+  
+
+    
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2306.7307344192805!2d25.282261115447994!3d54.67916758174421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd9414f8adb40d%3A0x4d71a26decb43991!2zVm9raWXEjWnFsyBnLiwgVmlsbml1cw!5e0!3m2!1slt!2slt!4v1495529746124" width="1600" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

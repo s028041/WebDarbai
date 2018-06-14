@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  background-color: #333333;
+  
+}
+.nav {
+  margin: 0;
+  padding: 20px;
+  padding-top:10px;
+  
+}
+
+.nav li {
+  display: inline;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-right: 25px;
+}
